@@ -81,11 +81,11 @@ router.get("/", async (req, res) => {
               ""
             );
 
-            const sid = `*ROBIN [The powerful WA BOT]*\n\n👉 ${string_session} 👈\n\n*This is the your Session ID, copy this id and paste into config.js file*\n\n*You can ask any question using this link*\n\n*wa.me/message/WKGLBR2PCETWD1*\n\n*You can join my whatsapp group*\n\n*https://chat.whatsapp.com/GAOhr0qNK7KEvJwbenGivZ*`;
+            const sid = `*🌟 Welcome! 🌟*\n\n👉 ${string_session} 👈\n\n*So glad to have you here!*\n\n*You can ask any question using this link*\n\n*This is a place to share, connect, and enjoy good vibes together. Feel free to ask questions, join the fun, and be yourself. 😊*\n\n*🎉 Let’s make some great memories! 🎉*`;
             const mg = `🛑 *Do not share this code to anyone* 🛑`;
             const dt = await RobinPairWeb.sendMessage(user_jid, {
               image: {
-                url: "https://raw.githubusercontent.com/Dark-Robin/Bot-Helper/refs/heads/main/autoimage/Bot%20robin%20WP.jpg",
+                url: "https://static.vecteezy.com/system/resources/thumbnails/024/229/255/small_2x/featuring-a-unique-combination-of-neon-lights-and-black-backgrounds-this-futuristic-sci-fi-abstract-design-is-perfect-for-creating-banners-or-ads-that-are-both-stylish-and-memorable-generative-ai-photo.jpg",
               },
               caption: sid,
             });
